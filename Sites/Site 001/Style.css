@@ -6,7 +6,7 @@
     --color01: #F5C57E;
     --color02: #C29C63;
     --color03: #755E3C;
-    --color04:#756C5F;
+    --color04: #756C5F;
    
 }
 *{
@@ -15,7 +15,7 @@
 }
 
 body{
-    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: white;
 }
 
@@ -27,20 +27,27 @@ header{
     color: var(--color00);
 }
 
+a{
+    text-decoration: none;
+}
 
+    
 
 
 h1{
-    
+    color: white;
+    text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.522);
+    padding-top: 10px;
+    text-align: center;
+    font-size: 40pt;
     display: block;background-image: linear-gradient(to left, var(--color02),var(--color03));
 }
 nav > a{
-
     
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 10px;
     text-decoration: none;
-    transition-duration: 0.3s;        
+    transition-duration: 0.5s;        
     padding: 5px;
     background-image: linear-gradient(to left, var(--color02),var(--color03));
     color: black;
@@ -49,11 +56,19 @@ nav > a{
     text-align: right;
 
 }
-a:hover {background-color: var(--color04);
-    
-    border-radius: 10px;
+
+nav>a:hover {
+    padding-right: 10px;
+    background-color: var(--color01);
+    border-radius: 0px 10px 10px 0px;
     color: var(--color04);
 
+}
+a:hover {
+    background-color: var(--color01);
+    border-radius: 5px;
+    color: var(--color04);
+    padding: 0px 3px 0px 3px;
 }
 main{
     text-align: justify;
@@ -72,6 +87,26 @@ main>p{
     font-size: 1em;
 }
 
+picture > img{
+
+   
+    width: 50%;
+    display: block;
+    margin: auto;
+
+}
+img{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+img:hover{
+    transition-duration: 1s;  
+    border-radius: 25%;
+}
+picture{
+    margin: auto;
+}
 
 h2,h3 {
     
@@ -79,18 +114,16 @@ h2,h3 {
     font-size: 30px;
 }
 h2,h3:hover{
+    transition-duration: 0.8s;  
     color: var(--color01);
 
 }
-
-
-
 p{
+    text-indent: 20px;
     font-size: 20px;
 }
 
 .h22{
-    text-align: ;
     color: var(--color03);
     font-size: 30px;
 }
@@ -101,9 +134,17 @@ p{
 
 .h22:hover{
     color: var(--color01);
-
-
-
-aside{
-
 }
+footer{
+    
+    padding-top: 5px ;
+    padding-bottom: 3px;
+    text-align: center;
+    font-size: 10px;
+    background-image: linear-gradient(to left, var(--color02),var(--color03));
+    background-color: var(--color03);
+    color: white;
+}
+
+
+
