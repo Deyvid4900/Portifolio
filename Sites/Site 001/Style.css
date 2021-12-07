@@ -15,6 +15,7 @@
 }
 
 body{
+    background-image: url(imagens/wallpaper001.jpg);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: white;
 }
@@ -45,8 +46,7 @@ h1{
     display: block;background-image: linear-gradient(to left, var(--color02),var(--color03));
 }
 nav > a{
-    border-radius: 10px 0px 0px 10px;
-    margin-left: 85% ;
+    
     font-size: 15pt;
     color: rgb(255, 255, 255);
     padding: 10px;
@@ -57,13 +57,14 @@ nav > a{
     color: white;
     display: block;
     text-align: right;
+    display: block;background-image: linear-gradient(to left, var(--color02),var(--color03));
 
 }
 
 nav>a:hover {
     padding-right: 10px;
     background-color: var(--color01);
-    border-radius: 10px 0px 0px 10px;
+    
     
 
 }
@@ -74,6 +75,7 @@ a:hover {
     padding: 0px 3px 0px 3px;
 }
 main{
+    border-radius: 0px 0px 10px 10px;
     text-align: justify;
     background-color: white;
     padding: 40px;
@@ -81,6 +83,7 @@ main{
     margin-bottom: 30px;
     min-width: 300px;
     max-width: 1000px;
+    box-shadow: rgba(0, 0, 0, 0.57) 0px 25px 20px 0px;
 }
 main>p{
     text-indent: 15px;
