@@ -36,23 +36,26 @@ a{
 
 h1{
     color: white;
+
     text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.522);
     padding-top: 10px;
+    padding-bottom: 15px;
     text-align: center;
     font-size: 40pt;
     display: block;background-image: linear-gradient(to left, var(--color02),var(--color03));
 }
 nav > a{
-    
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 85% ;
+    font-size: 15pt;
     color: rgb(255, 255, 255);
     padding: 10px;
     text-decoration: none;
     transition-duration: 0.5s;        
     padding: 5px;
-    background-image: linear-gradient(to left, var(--color02),var(--color03));
-    color: black;
+    background-color: var(--color02);
+    color: white;
     display: block;
-    text-decoration: none;
     text-align: right;
 
 }
@@ -60,8 +63,8 @@ nav > a{
 nav>a:hover {
     padding-right: 10px;
     background-color: var(--color01);
-    border-radius: 0px 10px 10px 0px;
-    color: var(--color04);
+    border-radius: 10px 0px 0px 10px;
+    
 
 }
 a:hover {
@@ -73,7 +76,7 @@ a:hover {
 main{
     text-align: justify;
     background-color: white;
-    padding: 10px;
+    padding: 40px;
     margin: auto;
     margin-bottom: 30px;
     min-width: 300px;
@@ -129,6 +132,7 @@ p{
 }
 .Pri{
     font-size:20px ;
+    line-height: 1em;
 
 }
 
