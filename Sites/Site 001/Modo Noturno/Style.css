@@ -2,10 +2,10 @@
 
 
 :root {
-    --color00: #F7E4C8;
-    --color01: #F5C57E;
-    --color02: #C29C63;
-    --color03: #755E3C;
+    --color00: #806134;
+    --color01: #775727;
+    --color02: #826334;
+    --color03: #48361c;
     --color04: #756C5F;
    
 }
@@ -15,53 +15,45 @@
 }
 
 body{
-    background-image: url(imagens/wallpaper001.jpg);
+    color: rgb(65, 65, 65);
+    
+    background-size: 100%;
+    background-attachment: fixed ;
+    background-image: url(imagens/Wallpaper001.jfif.jfif);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: white;
+    
 }
 
 header{
     text-align: right;
     padding: 10px;
-    background-image: linear-gradient(to left, var(--color02),var(--color03));
-    
-    color: var(--color00);
+    background-color: var(--color03);
 }
 
-a{
+a{  
     text-decoration: none;
 }
-#l1{
-    padding-left: 800px;
-}
-
-#l2{
-    padding-left: 800px;
-}
-
-
 #MN{
+    
     position: relative;
     top: -40px;
     background-color: gray;
     display: inline-block;
-    padding-right: 74px;
+    padding-right: 79px;
     margin-right: 0px;
     font-size: 9px;
     text-align: left;
-    min-width:900px ;
-    max-width: 1000px;
 }
  
 h1{
-    color: white;
+    color: rgb(218, 218, 218);
 
     text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.522);
     padding-top: 10px;
     padding-bottom: 15px;
     text-align: center;
     font-size: 40pt;
-    display: block;background-image: linear-gradient(to left, var(--color02),var(--color03));
+    background-color: var(--color03);
 }
 nav > a{
     
@@ -71,30 +63,33 @@ nav > a{
     text-decoration: none;
     transition-duration: 0.5s;        
     padding: 5px;
-    background-color: var(--color02);
-    color: white;
+    background-color: var(--color03);
+    color: rgb(218, 218, 218);
     display: block;
     text-align: right;
-    display: block;background-image: linear-gradient(to left, var(--color02),var(--color03));
+    
 
 }
 
 nav>a:hover {
     padding-right: 10px;
     background-color: var(--color01);
+    
+    
+
 }
 
 main{
+    color: rgb(218, 218, 218);
     position: relative;
-
     top: -60px;
     border-radius: 0px 0px 10px 10px;
     text-align: justify;
-    background-color: white;
+    background-color: var(--color02);
     padding: 40px;
     margin: auto;
     margin-bottom: 30px;
-    min-width: 100px;
+    min-width: 300px;
     max-width: 1000px;
     box-shadow: rgba(0, 0, 0, 0.57) 0px 25px 20px 0px;
 }
@@ -129,7 +124,7 @@ picture{
 
 h2,h3 {
     
-    color: var(--color03);
+    color: white;
     font-size: 30px;
 }
 h2,h3:hover{
@@ -143,7 +138,7 @@ p{
 }
 
 .h22{
-    color: var(--color03);
+    color: white;
     font-size: 30px;
 }
 .Pri{
@@ -163,7 +158,7 @@ footer{
     font-size: 10px;
     background-image: linear-gradient(to left, var(--color02),var(--color03));
     background-color: var(--color03);
-    color: white;
+    color: rgb(199, 199, 199);
 }
 
 

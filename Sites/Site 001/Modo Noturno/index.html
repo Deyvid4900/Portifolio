@@ -13,11 +13,11 @@
         <h1>_DMafia_</h1>
     </header>
     <nav>
-        <a id="l1" href="https://www.americanas.com.br/?epar=bp_br_00_go_sch_brand_americanas_202002&WT.srch=1&opn=YZMEZP" target="blank">Loja</a>
-        <a id="l2" href="Contato/index.html">Nos contate</a>
+        <a href="https://www.americanas.com.br/?epar=bp_br_00_go_sch_brand_americanas_202002&WT.srch=1&opn=YZMEZP" target="blank">Loja</a>
+        <a href="../Contato/index.html">Nos contate</a>
         <br>
         <br>
-        <a id="MN" href="Modo Noturno/">Modo Noturno</a>
+        <a id="MN" href="../index.html">Modo Diurno</a>
    </nav>
    <main>
        <h2 class="h22">
@@ -50,12 +50,10 @@
                 <br>
                 <br>
                 
-                <abbr title="Clique para ver a imagen sem bordas">
-                    <picture>
-                        <source media="(max-width:600px)" srcset="imagens/DeyvidM.jpg">
-                        <img id="foto" src="imagens/DeyvidFull.jpg" alt="uma imagens do criador da marca">
-                    </picture>
-                </abbr>
+                <picture>
+                    <source media="(max-width:600px)" srcset="imagens/DeyvidM.jpg">
+                    <img id="foto" src="imagens/DeyvidFull.jpg" alt="uma imagens do criador da marca">
+                </picture>
                 <br>
                 <br>
             </div>
@@ -73,11 +71,11 @@
             </p>
             <br>
             <br>
-            <abbr title="Clique para ver a imagen sem bordas"><img id="logom" src="imagens/DMpq.png" alt="foto da logo tipo da empresa DMafia"class="v"></abbr>
+            <img id="logoM" src="imagens/DMpq.png" alt="foto da logo tipo da empresa DMafia"class="v">
             <br>
             <br>
             <p>
-                O leve toque do marrom lembra o algo rustico, porem sofisticado,e a imensidão do preto lembra-nos das vertentes do pais<strong> (Brasil)</strong> que foi construida pelos negros.
+                O leve toque do marrom lembra o algo rustico, porem sofisticado,e a imensidão do preto lembra-nos das vertentes do pais (Brasil) que foi construida pelos negros.
             </p>
 
 
@@ -89,24 +87,19 @@
         
     </footer>
     <script>
-        var a = document.getElementById('logom')
+        var logo = document.getElementById('logoM')
         a.addEventListener('click',clicar)
-
+        a.addEventListener('mouseout',sair)
         function clicar() {
-            a.style.borderRadius = '0px'    
+            a.style.borderRadius = '0%'    
         }
+        /*var MN = document.getElementsByID('MN')
+        a.addEventListener('click',clicar)
+        function clicar() {
+        a.style.backgroundcolor = 'black'
+         }
+       */
 
-        if (clicar = false) {
-            alert('Gatão')
-            
-        }
-
-        var b = document.getElementById('foto')
-        b.addEventListener('click',clicar2)
-        function clicar2() {
-            b.style.borderRadius = '0px'    
-        }
-       
         
     </script>
 </body>
