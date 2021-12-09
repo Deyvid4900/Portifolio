@@ -37,7 +37,7 @@ a{
     
     position: relative;
     top: -40px;
-    background-color: gray;
+    background-color: var(--color03);
     display: inline-block;
     padding-right: 79px;
     margin-right: 0px;

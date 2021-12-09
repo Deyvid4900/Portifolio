@@ -71,7 +71,7 @@
             </p>
             <br>
             <br>
-            <img id="logoM" src="imagens/DMpq.png" alt="foto da logo tipo da empresa DMafia"class="v">
+            <img id="logom" src="imagens/DMpq.png" alt="foto da logo tipo da empresa DMafia"class="v">
             <br>
             <br>
             <p>
@@ -87,19 +87,24 @@
         
     </footer>
     <script>
-        var logo = document.getElementById('logoM')
+        var a = document.getElementById('logom')
         a.addEventListener('click',clicar)
-        a.addEventListener('mouseout',sair)
-        function clicar() {
-            a.style.borderRadius = '0%'    
-        }
-        /*var MN = document.getElementsByID('MN')
-        a.addEventListener('click',clicar)
-        function clicar() {
-        a.style.backgroundcolor = 'black'
-         }
-       */
 
+        function clicar() {
+            a.style.borderRadius = '0px'    
+        }
+
+        if (clicar = false) {
+            alert('Gatão')
+            
+        }
+
+        var b = document.getElementById('foto')
+        b.addEventListener('click',clicar2)
+        function clicar2() {
+            b.style.borderRadius = '0px'    
+        }
+       
         
     </script>
 </body>
