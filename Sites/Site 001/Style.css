@@ -64,7 +64,7 @@ h1{
     display: block;background-image: linear-gradient(to left, var(--color02),var(--color03));
 }
 nav > a{
-    
+    margin: auto;
     font-size: 15pt;
     color: rgb(255, 255, 255);
     padding: 10px;
