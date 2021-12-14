@@ -85,7 +85,7 @@ p , h1{
 div#cir{
     z-index: 1;
     position: absolute;
-    left: 60%;
+    
     top: 70vh;
     border-radius: 100%;
     width: 700px;
