@@ -9,7 +9,7 @@
 }
 
 body{
-    
+    text-align: right;
     height: 100%;
     overflow-x: hidden;
     
@@ -17,11 +17,12 @@ body{
 }
 
 #tit{
+
+    text-align: center ;
     font-size:50px;
     color: white;
     position: relative;
     top: 50px;
-    text-align: right;
     margin: auto;
 }
 
@@ -34,7 +35,7 @@ header{
 }
 
 nav{
-    z-index: 2;
+    z-index: 3;
     padding: 20px 20px 20px 0px;
     text-align: right;
     
@@ -42,7 +43,7 @@ nav{
     background-color: rgba(191, 91, 129, 0.809);
 }
  a{ 
-
+    z-index: 3;
     font-size: 14pt;
     color: white;
     padding: 25px;
@@ -53,17 +54,18 @@ a:hover{
     font-size: 16pt ;
 }
 h1{
-    z-index: 2;
+    text-align: center;
+    z-index: 3;
     font-size: 40pt ;
 }
-p , h1{
-    z-index: 2;
-    margin-left: 200px;
+p,h2 {
+    z-index: 3;
+    margin-left: 105px;
     font-size: 18pt;
     position: relative;
     top: 10vh;
-    padding: 20px;
-    max-width: 400px;
+    padding: 30px;
+    max-width: 500px;
     min-width: 200px ;
     text-align: center;
 }
@@ -75,22 +77,31 @@ p , h1{
     top: 100px;
     left: -5%;
 }
-
-#tex{
+#text1{
+    z-index: 2;
+    margin-left: 105px;
+    top: 20vh;
+}
+#text2{
+    max-width: 425px;
+    margin-top: 160px;
+    margin-bottom: 100px;
     margin-left: auto;
     z-index: 2;
     position: relative;
-    top: 190px;
+    top: 5vh;
 }
 div#cir{
+    overflow-x: hidden;
+    overflow-y: scroll;
     z-index: 1;
     position: absolute;
     
-    top: 70vh;
+    top: 45vh;
     border-radius: 100%;
     width: 700px;
     height: 700px;
-    background-image: linear-gradient(to bottom,rgba(191, 91, 129, 0.809),white );
+    background-image: linear-gradient(to top,rgba(191, 91, 129, 0.809),white );
 
 }
 div#cir2{
@@ -105,12 +116,13 @@ div#cir2{
     background-image: linear-gradient(to top,rgba(255, 0, 0, 0.755),white );
 }
 footer{
-    border-radius: 50% 50% 0px 0px;
-    margin: -350px;
-    padding-bottom: 200px;
+    
+    border-radius: 10% 10% 0px 0px;
+    margin: auto;
+    padding-bottom: 10vh;
     background-color: rgba(0, 0, 0, 0.898);
 }
-footer > p {
+footer > h1 {
     position: relative;
     left: 95vh;
     top: 200px;
