@@ -7,29 +7,108 @@ body{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-header{ 
+#top{
+    background-image: linear-gradient(to bottom,#062644 ,#2fb9f9);
+}
+
+h1>a{
+    margin-top: 50px;
+    color: black;
+    text-decoration: none;
+    
+}
+div{text-align: right;
+    padding: 20px;
+    margin: 0px;
+    background-color: #062644
+}
+div>span{
+    
+    left: 0px;
+    font-size: 35px;
+}
+#top>a{
+    
+    margin-right: 10px;
+   
+}
+ /*#port{
+    width: 500px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    right: 1060px;
+*/
+#port{
+    background-color: rgba(255, 255, 255, 0);
+    min-width: 1000px;
+    margin: 10px;
+    padding: 0px;
+    
+    position: relative;
+    right: 1077px;
+}
+
+    
+
+
+#tr {
+    color: #2fb9f9 ;
+}
+#fr{
+    color:white;
+}
+
+
+header{  
+    /*
+    max-width: 1440px;
+    margin-bottom: 30px; 
+    margin-top: -40px;
+    margin-left: -40px;
+    margin-right: -65px;
+    */
     color: white;
     background-position: 550px;
     background-repeat: no-repeat;
     background-image: url(imagens/deydebg.png);
     background-color: #2fb9f9;
-    height: 700px;
-    padding: 20px;
+    height: 800px;
+    width: auto;
+    padding: 40px;
     text-align: right;
-    margin-bottom: 30px;
-    
    
    
-    
 
+   
+    
 }
+
 h1{  
-    font-size: 30pt;
+    
     margin-left: 10vw;
     margin-right: 15vw;
+    
     margin-top: 150px;
     text-align: left;
+    font-size: 30pt;
 }
+h1>a{
+    margin: auto;
+    color:#062644;
+}
+#qm{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+
+    color:#2fb9f9 ;
+}
+#que{
+    cursor: none;
+    margin-top: 130px;
+}
+
 h2{
     font-size: 15pt;
     margin-left: 10vw;
@@ -39,58 +118,89 @@ h2{
 #apr{
     text-align: left;
     max-width: 400px;
-    margin-left: 10vw;
-    margin-right: 20vw;
+    margin-left: 8.5vw;
+    margin-right: 15vw;
 }
-a{
+
+div>a{
     
-    color: rgb(253, 255, 141);
-    margin-left:30px;
+    color: white;
+    margin-left:10px;
     text-decoration: none;
-    font-size: 14pt;
+    font-size: 12pt;
 }
 section{
-    
-    height: 600px;
+    text-align: center;
+    height: 700px;
     
 }
 section > h2 { 
+    margin-bottom: 50px;
+    margin-right: 205px;
     font-size: 15pt;
     text-align: center;
 }
+div>a:hover{
+    font-size: 14px;
+    color: rgb(255, 255, 131);
+}
+
+
+
 section > h1 { 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 25pt;
     text-align: center;
 }
 
-#sobre{
-    max-height: 600px;
-    height: 600px;
-}
 #serviços{
 
     background-color: #206e95;
-    height: 500px;
+    height: 800px;
 }
 
-#especialida{
+#especialidades{
+    height: 800px;
     background-color: #062644 ;
 }
-picture> img{
-    
+picture > img{
+
+    margin-top: 10px;
     display: inline-block; 
-    border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.248);
 }
+#about{
+    top: -40px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+}
+
 p{  
+    
     margin-left: auto;
     margin-right: auto;
-    text-align: right;
+    text-align: left;
     padding: 20px;
     min-width: 150px;
-    max-width: 700px;
+    max-width: 450px;
     
 }
+#ps1{
+    
+    margin-top: -17px;
+}
+section>p{
+    
+    display: inline-block;
+   
+    
+
+}
+
 
 
 footer{
