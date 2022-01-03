@@ -62,15 +62,9 @@ div>span{
 
 
 header{  
-    /*
-    max-width: 1440px;
-    margin-bottom: 30px; 
-    margin-top: -40px;
-    margin-left: -40px;
-    margin-right: -65px;
-    */
+    
     color: white;
-    background-position: 755px;
+    background-position: 700px;
     background-repeat: no-repeat;
     background-image: url(imagens/deydebg.png);
     background-color: #2fb9f9;
