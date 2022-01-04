@@ -4,11 +4,12 @@
 body{
     
     overflow-x: hidden;
-    margin: 0px;
+    margin: -1px;
     font-family: Arial, Helvetica, sans-serif;
 }
 #top{
-    margin: -1px;
+    margin: 0px;
+    background-color: #062644 ;
     background-image: linear-gradient(to bottom,#062644 ,#2fb9f9);
 }
 
@@ -33,13 +34,7 @@ div>span{
     margin-right: 5px;
    
 }
- /*#port{
-    width: 500px;
-    margin: 0px;
-    padding: 0px;
-    position: relative;
-    right: 1060px;
-*/
+ 
 #port{
     background-color: rgba(255, 255, 255, 0);
     min-width: 1000px;
@@ -47,7 +42,7 @@ div>span{
     padding: 0px;
     
     position: relative;
-    right: 1077px;
+    right: 900px;
 }
 
     
@@ -216,7 +211,7 @@ section > h1 {
 }
 
 #especialidades{
-    height: 900px;
+    height: 1000px;
     background-color: #062644 ;
 }
 picture > img{
@@ -294,6 +289,83 @@ div>picture>img{
     margin-right: 0px;
 }
 
+#Contato{
+
+    background-color: #2fb9f9 ;
+
+}
+#ctt{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    min-height: auto;
+    max-height: auto;
+    border-radius: 25px;
+    background-color: white;
+    padding: 0px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.398);
+}
+#ctt>h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    margin-top: 100px;
+    font-size: 25pt;
+    color: #2fb9f9;
+
+}
+.bloco1,.bloco2,.bloco3,.bloco4{
+    padding: 0px;
+}
+.bloco1{
+    margin-top: 0px;
+    display: inline-block;
+    width: 225px;
+    height: 140px;
+    
+    text-align: center;
+}
+.bloco2{
+    display: inline-block;
+    width: 225px;
+    height: 200px;
+    text-align: center;
+}
+.bloco3{
+    margin-top: 0px;
+    display: inline-block;
+    width: 225px;
+    height: 140px;
+    
+    text-align: center;
+    
+}
+.bloco3>a{
+    font-size: 16px;
+    color: black;
+}
+.bloco4{
+    margin-top: 0px;
+    display: inline-block;
+    width: 225px;
+    height: 140px;
+    
+    text-align: center;
+}
+.bloco4>a{
+    color: black;
+}
+.bloco4,.bloco2{
+    padding-left: 10px;
+}
+.bloco1,.bloco3{
+    padding-right: 10px;
+}
+
 
 
 footer{
@@ -301,7 +373,10 @@ footer{
     color: white;
     padding: 25px;
     background-color: rgb(24, 24, 24);
-    height: 65px;
+    height: 150px;
+}
+footer>span{
+    color: chartreuse;
 }
 footer>div{
     font-size: 10px;
