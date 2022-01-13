@@ -3,14 +3,48 @@
 
 body{
     
+    
     overflow-x: hidden;
     margin: -1px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #top{
+    animation: top 20s ease alternate infinite;
     margin: 0px;
     background-color: #062644 ;
-    background-image: linear-gradient(to bottom,#062644 ,#2fb9f9);
+    background-image: linear-gradient(to left ,#23a6d5,#23d5ab ,#062644) ;
+    background-size: 300% 300%;
+}
+@keyframes top{
+     0%{
+         background-position: 0 50%;
+     }
+     
+    
+     50%{
+        background-position: 100% 50%;
+     }
+     100%{
+        background-position: 0% 50%;
+     }
+}
+
+@keyframes bgp{
+    to{
+        background-position: 600px;
+    }
+    from{
+        background-position: 700px ;
+    }
+}
+@keyframes  span{
+    to {
+        color: white;
+    }
+    from{
+        color: yellow;
+    }
 }
 
 h1>a{
@@ -49,6 +83,7 @@ div>span{
 
 
 #tr {
+    animation: span 5s ease alternate infinite;
     color: #2fb9f9 ;
 }
 #fr{
@@ -57,7 +92,7 @@ div>span{
 
 
 header{  
-    
+    animation: bgp 3s ease alternate 3;
     color: white;
     background-position: 600px;
     background-repeat: no-repeat;
@@ -145,13 +180,22 @@ section > h2 {
     text-align: center;
 }
 div>a:hover{
-    
+    animation: lik 2s ease-in-out alternate infinite;
     color: rgb(255, 255, 131);
 }
 
+@keyframes lik{
+    to{
+        transform: scale(0);
+    }
+    from{
+        transform: scale(0.5);
+    }
+}
 
 
 section > h1 { 
+    animation: lik 9s ease-in-out alternate 4 forwards;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: auto;
@@ -220,7 +264,17 @@ picture > img{
     display: inline-block; 
 }
 #ftt{
+    animation: rot 1s ease-out alternate 6;
+    transform: rotate(0deg);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.268);
+}
+
+   
+
+@keyframes rot{
+   from{
+       margin-bottom: 10px;
+   }
 }
 #about{
     top: -35px;
@@ -386,4 +440,21 @@ footer>div{
 footer>div>a{
     font-size: 10px;
 
+}
+
+
+@media screen and (max-width:1024px) {
+    #fr{
+        color: rgba(255, 255, 255, 0);
+       
+    }
+    #tr{
+        animation: none;
+        color: rgba(255, 255, 255, 0);
+       
+    }
+    header{
+        background-size: 20px 20px;
+    }
+    
 }
