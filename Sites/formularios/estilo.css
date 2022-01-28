@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+div{
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(238, 238, 238);
+    width: 600px;
+    height: 900px;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.466);
+}
