@@ -32,13 +32,16 @@ a{
     text-decoration: none;
 }
 #l1{
-    padding-left: 800px;
+    padding-left: 60%;
 }
 
 #l2{
-    padding-left: 800px;
+    margin-bottom: 20px;
+    padding-left: 60%;
 }
-
+#li,#l2{
+    display: block;
+}
 
 #MN{
     position: relative;
@@ -166,5 +169,14 @@ footer{
     color: white;
 }
 
+@media screen and (max-width:600px) and (min-width:600px){
+    #l1,#l2{
+        padding:25px;
+        
 
+    }
+    #l2{
+        margin-bottom: 20px;
+    }
+}
 

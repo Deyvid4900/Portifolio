@@ -7,7 +7,14 @@ body{
     font-size: 15pt; 
 }
 
-
+.bran{
+    margin: auto;
+    padding-top: 100px;
+    border-radius: 30px;
+    background-color: #d3b588;
+    width: 700px;
+    
+}
 
 h1{ 
     margin-top: 0px;
@@ -27,7 +34,7 @@ div#email{
     position: relative;
     top: 50px;
     left: 25%; 
-    border-radius: 50%;
+    border-radius: 20%;
     background-color:rgb(250, 103, 103);
     width: 100px; 
     height: 100px;
@@ -51,7 +58,7 @@ div#Insta{
     text-decoration: none;
     position: relative; 
     left: 65%; 
-    border-radius: 50%; 
+    border-radius: 20%; 
     background-color:rgb(161, 102, 230); 
     width: 100px; 
     height: 100px; 
@@ -74,7 +81,7 @@ div#whats{
     position: relative; 
     left: 65%; 
     bottom: 50px; 
-    border-radius: 50%; 
+    border-radius: 20%; 
     background-color:rgb(23, 232, 48); 
     width: 100px; 
     height: 100px; 
@@ -97,7 +104,7 @@ div#You{
     position: relative; 
     top: -300px; 
     left: 25%; 
-    border-radius: 50%; 
+    border-radius: 20%; 
     background-color:rgb(252, 22, 22); 
     width: 100px; 
     height: 100px; 
@@ -110,4 +117,34 @@ div#You{
 div#You> a {
     color: white; 
     text-decoration: none; 
+}
+@media screen and (max-width:300px) {
+    h1{
+        margin-right: 2%;
+        margin-left: 0%;
+        font-size: 20pt;
+        padding: 0px;
+        width: 190px;
+    }
+    .bran{
+        margin: 0px;
+        width: 190px;
+    }
+    
+    
+        
+    
+    #You{
+        top: 20px;
+    }
+    #Insta{
+        top:150px;
+    }
+    #whats{
+        display: inline-block;
+        position: relative;
+        
+        left: 25%;
+        top:100px;
+    }
 }
