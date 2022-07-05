@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+       form{
+    background-color: aqua;
+       }
+    </style>
+
+
+</head>
+<body>
+    <h1>Somente com a nossa loja você podera andar arrumado e descolado ao mesmo tempo</h1>
+    
+    <form id="area">
+        <label for="Qcamisa">Qual camisa voce deseja? <br> <br></label>
+        <input type="number" name="Qcamisa" id="Qcamisa" max="20"
+         maxlength="1" >
+        
+
+    </form>
+    <p id="escolha">A camisa escolida foi a</p>
+    <script>
+         var a = window.document.getElementById('area')
+         a.addEventListener('fullscreenchange',dobleclick)
+         var qcamisa = (window.document.getElementById('Qcamisa'))
+         var escolha = (window.document.getElementById('escolha'))
+         var res = qcamisa
+        
+         if  (qcamisa == 0 ) 
+         {
+            escolha.innerHTML = `<h1>A <strong>camisa</strong> escolida foi a </h1> mais bonita `
+            
+
+         }else{
+            window.alert("deu errado")
+         }
+         function dobleclick() {
+            escolha.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. At expedita tenetur nostrum quis laudantium minima deserunt. Numquam accusamus expedita, aliquid ipsa in, eius possimus assumenda earum nihil, minus natus voluptatem!Lorem ipsum dolor sit amet consectetur adipisicing elit. At expedita tenetur nostrum quis laudantium minima deserunt. Numquam accusamus expedita, aliquid ipsa in, eius possimus assumenda earum nihil, minus natus voluptatem!Lorem ipsum dolor sit amet consectetur adipisicing elit. At expedita tenetur nostrum quis laudantium minima deserunt. Numquam accusamus expedita, aliquid ipsa in, eius possimus assumenda earum nihil, minus natus voluptatem!Lorem ipsum dolor sit amet consectetur adipisicing elit. At expedita tenetur nostrum quis laudantium minima deserunt. Numquam accusamus expedita, aliquid ipsa in, eius possimus assumenda earum nihil, minus natus voluptatem!"
+
+            
+         }
+
+    </script>
+</body>
+
+</html>

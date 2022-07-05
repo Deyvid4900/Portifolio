@@ -1,0 +1,65 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #5c0c81;
+}
+.portifolio{
+    
+    background-color: rgba(0, 0, 0, 0.798);
+    height: 5vh;
+    padding-top: 20px ;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.portifolio2{
+    display: inline;
+    color: white;
+}
+span{
+    font-size: 20px;
+    color: #ba3ff3;
+}
+.nav{
+    margin-top: 10px;
+    text-align: right;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 12px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+ a:hover {
+    color: yellow;
+    transition: 1.5s;
+} 
+@keyframes color {
+    0%{
+        color: blue;
+    }
+    10%{
+        color: red;
+    }
+    20%{
+        color: green;
+    }
+    30%{
+        color: pink;
+    }
+    40%{
+        color: yellow;
+    }
+    50%{
+        color: purple;
+    }
+    60%{
+        color: orange;
+    }
+    
+
+}
