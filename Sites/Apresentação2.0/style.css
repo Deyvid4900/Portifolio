@@ -4,11 +4,17 @@
     padding: 0px;
 }
 body{
-    background-color: #5c0c81;
+    background-image: url(imagens/Design\ sem\ nome\ \(7\).png);
+    background-color: #cb7af1;
+    background-size: 100vw 200vh;
+    background-repeat: no-repeat;
+}
+main{
+    
 }
 .portifolio{
     
-    background-color: rgba(0, 0, 0, 0.798);
+    background-color: rgba(0, 0, 0, 0.901);
     height: 5vh;
     padding-top: 20px ;
     padding-bottom: 10px;
@@ -30,14 +36,60 @@ span{
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 12px;
 }
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 a{
+    margin-right: 10px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgba(59, 12, 79, 0.864);
 }
  a:hover {
-    color: yellow;
-    transition: 1.5s;
+    color: rgb(226, 226, 121);
+    transition: 0.5s;
 } 
+.span2{
+    color: white;
+}
+.apresentacao{
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 15vw;
+    margin-left: 20px;
+    margin-right: 80px;
+    margin-top: 100px;
+    height: 200px;
+}
+.link-git{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.324);
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes color {
     0%{
         color: blue;
@@ -60,6 +112,4 @@ a{
     60%{
         color: orange;
     }
-    
-
 }
